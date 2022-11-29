@@ -1,0 +1,37 @@
+body{
+ background-size:cover;
+ background-position:center;
+}
+
+h1 {
+    color:gold;
+    background-color:gold;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border:20px solid white;
+    border-radius:10px;
+    animation-name:animation;
+    animation-duration: 10s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    14%{box-shadow: 1px 1px 50px #ff0000;}
+    28%{box-shadow: 1px 1px 50px #ff5500;}
+    42%{box-shadow: 1px 1px 50px #ffee00;}
+    56%{box-shadow: 1px 1px 50px #1eff00;}
+    70%{box-shadow: 1px 1px 50px #00e1ff;}
+    84%{box-shadow: 1px 1px 50px #0022ff;}
+    100%{box-shadow: 1px 1px 50px #ff00e6;}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
